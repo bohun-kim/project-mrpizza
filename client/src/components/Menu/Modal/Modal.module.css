@@ -1,0 +1,205 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: #333;
+  opacity: 0.1;
+}
+
+.modalContent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 860px;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.popTop {
+  padding: 25px 0 15px 0;
+  border: 1px solid #ccc;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.popTop h1 {
+  font-size: 2rem;
+}
+
+.popTop p {
+  color: #666;
+}
+
+.popContainer {
+  display: flex;
+  height: 76%;
+}
+
+.popContent {
+  width: 57%;
+  height: 100%;
+}
+
+.popContent img {
+  width: 100%;
+  height: 330.5px;
+  background-repeat: no-repeat;
+}
+
+.popOpt {
+  width: 43%;
+  height: 100%;
+  padding: 30px 20px 0 30px;
+  border-top: none;
+}
+
+.popOpt > ul {
+  margin-bottom: 10px;
+}
+
+.qty {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+.qty > strong {
+  margin-right: 50px;
+}
+
+.qty > input {
+  width: 46px;
+  height: 100%;
+  text-align: center;
+  margin-right: 7px;
+  border: 1px solid #ccc;
+}
+
+.qty > .plus,
+.qty > .minus {
+  width: 35px;
+  height: 100%;
+  background-image: url(//cdn.mrpizza.co.kr/2014_resources/images/common/icon_plus.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #222;
+}
+
+.qty > .minus {
+  background-image: url(https://cdn.mrpizza.co.kr/2014_resources/images/common/icon_minus.png);
+  background-color: rgb(158, 157, 157);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.price strong {
+  margin-right: 44px;
+}
+
+.priceR > p {
+  color: #f17304;
+  font-weight: 700;
+}
+
+.priceL > p {
+  color: #cb1919 !important;
+  font-weight: 700;
+}
+
+.priceR > p:first-child,
+.priceL > p:first-child {
+  margin-right: 4px;
+}
+
+.priceContainer {
+  display: flex;
+}
+
+.menuRdo > label,
+.menuLdo > label,
+.priceR,
+.priceL {
+  display: flex;
+}
+
+.size {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.size strong {
+  margin-right: 17px;
+}
+
+.size > div {
+  display: flex;
+}
+
+.rSize,
+.lSize {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  font-size: 0.8rem;
+}
+
+.rSize > img,
+.lSize > img {
+  margin-right: 6px;
+}
+
+.orderPrice p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.orderPrice p > :last-child {
+  margin-right: 10px;
+  font-size: 2rem;
+  color: #c91c1c;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  height: 33px;
+}
+
+.btn > button {
+  width: 32%;
+  border: 1px solid #514f4f;
+  border-radius: 3px;
+  background: #514f4f;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+
+.btn > button:last-child {
+  background-color: #cb1919;
+  border-color: #cb1919;
+}
+
+.popClose {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: block;
+  background-color: #000;
+  width: 21px;
+  height: 21px;
+  background: url(//cdn.mrpizza.co.kr/2014_resources/images/common/btn_close.png)
+    no-repeat;
+}

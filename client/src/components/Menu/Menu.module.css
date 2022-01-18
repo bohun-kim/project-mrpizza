@@ -1,0 +1,242 @@
+.container {
+  margin-bottom: 255px;
+}
+
+.category {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 0;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.menuCategory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuCategory li {
+  margin: 0 10px;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  line-height: 34px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  color: #000;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.selected {
+  border-width: 2px;
+  border-color: #cb1919;
+  color: #cb1919;
+  line-height: 32px;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5px;
+  font-size: 1rem;
+}
+
+.menuRdo > label,
+.menuLdo > label {
+  display: flex;
+}
+
+.menuRdo {
+  margin-right: 15px;
+}
+
+.priceR,
+.priceL {
+  display: flex;
+  align-items: center;
+  color: #f17304;
+  font-weight: 700;
+}
+
+.priceL {
+  color: #cb1919;
+}
+
+.priceR > p,
+.priceL > p {
+  margin-right: 5px;
+}
+
+.pizzaItem {
+  position: relative;
+  cursor: pointer;
+}
+
+.hiddenInfo {
+  border: 1px solid #e2e2e2;
+  border-top: none;
+  position: absolute;
+  top: 235px;
+  left: -1px;
+  padding: 10px;
+  width: 240px;
+  height: 251px;
+  z-index: 999;
+  background-color: #fff;
+}
+
+.hiddenInfo p {
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btnDiv > button {
+  position: relative;
+  width: 76px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid #e2e2e2;
+}
+
+.search {
+  background-image: url(//cdn.mrpizza.co.kr/2014_resources/images/product/ic_memu01.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.search:hover::after {
+  content: "미리보기";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 2px solid #cb1919;
+  left: -2px;
+  top: -2px;
+  right: 0;
+  bottom: -2px;
+  font-weight: 700;
+  color: #cb1919;
+  background-color: #fff;
+}
+
+.cart {
+  background-image: url(//cdn.mrpizza.co.kr/2014_resources/images/product/ic_memu02.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cart:hover::after {
+  content: "장바구니";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 2px solid #cb1919;
+  left: -2px;
+  top: -2px;
+  right: 0;
+  bottom: -2px;
+  font-weight: 700;
+  color: #cb1919;
+  background-color: #fff;
+}
+
+.order {
+  background-image: url(//cdn.mrpizza.co.kr/2014_resources/images/product/ic_memu03.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.order:hover::after {
+  content: "바로주문";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 2px solid #cb1919;
+  left: -2px;
+  top: -2px;
+  right: 0;
+  bottom: -2px;
+  font-weight: 700;
+  color: #cb1919;
+  background-color: #fff;
+}
+
+@media all and (min-width: 768) and (max-width: 1023px) {
+}
+
+@media all and (min-width: 1024px) {
+  .menuCategory {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .category {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .link {
+    display: block;
+    width: 160px;
+    margin: 0 10px;
+    padding: 0;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    color: #000;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  .selected {
+    border-width: 2px;
+    border-color: #cb1919;
+    color: #cb1919;
+    line-height: 32px;
+  }
+
+  .contents {
+    /* border: 1px solid blue; */
+    width: 750px;
+    margin: 40px auto 0;
+  }
+
+  .menuList {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+  }
+
+  .pizzaItem {
+    width: 100%;
+    /* width: 234px; */
+    height: 236px;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+  }
+
+  .menuList li img {
+    width: 100%;
+  }
+
+  .menuList li strong {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+  }
+}

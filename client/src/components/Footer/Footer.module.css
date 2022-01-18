@@ -1,0 +1,200 @@
+.lineArea {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  margin-top: 200px;
+  padding: 24px 24px 24px;
+  position: relative;
+}
+
+.linkList {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.1rem;
+}
+
+.linkList li {
+  margin-right: 13px;
+  font-weight: 700;
+}
+
+.linkList li::after {
+  content: "";
+  margin-left: 10px;
+  border-right: 1px solid #363c42;
+}
+
+.linkList li:first-child {
+  margin-bottom: 7px;
+}
+
+.linkList li:nth-child(3)::after,
+.linkList li:last-child::after {
+  content: "";
+  border-right: none;
+}
+
+.linkList li a {
+  padding-right: 5px;
+}
+
+.infoWrap {
+  padding: 24px 0 12px 0;
+  display: block;
+  justify-content: space-between;
+}
+
+.infoWrap p {
+  line-height: 1.5;
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.copy {
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-bottom: 12px;
+}
+
+.snsList {
+  display: flex;
+}
+
+.snsList li {
+  margin: 2px;
+}
+
+.snsList a {
+  display: block;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.snsList a span {
+  display: block;
+  transition: all 0.3s;
+  font-size: 0;
+  width: 31px;
+  height: 31px;
+}
+
+.snsList a span:hover {
+  transform: scale(1.2);
+}
+
+.facebook {
+  background: url(//cdn.mrpizza.co.kr/2014_resources/images/common/img_sns_facebook.png)
+    0 0 no-repeat;
+}
+
+.kakao {
+  background: url(//cdn.mrpizza.co.kr/2014_resources/images/common/img_sns_kakaostory.png)
+    0 0 no-repeat;
+}
+
+.instagram {
+  background: url(//cdn.mrpizza.co.kr/2014_resources/images/common/img_sns_instagram.png)
+    0 0 no-repeat;
+}
+
+.blog {
+  background: url(//cdn.mrpizza.co.kr/2014_resources/images/common/img_sns_blog.png)
+    0 0 no-repeat;
+}
+
+.footerInfo {
+  padding: 0 24px 24px;
+}
+
+.awardWrap ul {
+  display: none;
+}
+
+.awardWrap ul li:first-child {
+  margin-left: 0;
+}
+
+.num {
+  color: #484848;
+  font-size: 18px;
+}
+
+.num strong {
+  color: #e20c3e;
+  font-size: 26px;
+}
+
+@media all and (min-width: 1024px) {
+  .lineArea {
+    margin-top: 0;
+    padding: 13px 0;
+  }
+
+  .lineAreaGroup {
+    position: relative;
+    width: 1160px;
+    margin: 0 auto;
+  }
+
+  .linkList {
+    display: flex;
+    font-size: 1rem;
+  }
+
+  .linkList li {
+    margin-right: 50px;
+    font-weight: 500;
+  }
+
+  .linkList li::after {
+    content: "";
+    border: none;
+  }
+
+  .linkList li:first-child {
+    margin-bottom: 0px;
+  }
+
+  .linkList li a {
+    padding: 0;
+  }
+
+  .infoWrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .footerInfo {
+    position: relative;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .awardWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .awardWrap ul {
+    display: flex;
+  }
+
+  .awardWrap ul li {
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    margin-left: 20px;
+  }
+
+  .awardWrap ul li img {
+    margin-right: 6px;
+  }
+
+  .awardWrap ul li span {
+    width: 90px;
+  }
+}

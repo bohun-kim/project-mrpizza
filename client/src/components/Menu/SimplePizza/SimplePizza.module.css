@@ -1,0 +1,37 @@
+.categoryWrap {
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.categoryWrap div {
+  width: 780px;
+  margin: 0 auto;
+  padding-left: 250px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.menuCategory {
+  display: flex;
+  justify-content: center;
+  padding-top: 62px;
+  text-align: center;
+}
+
+.link {
+  display: block;
+  width: 160px;
+  line-height: 34px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  color: #000;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.selected {
+  border-width: 2px;
+  border-color: #cb1919;
+  color: #cb1919;
+  line-height: 32px;
+}

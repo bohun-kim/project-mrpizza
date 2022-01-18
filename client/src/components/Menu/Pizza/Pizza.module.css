@@ -1,0 +1,42 @@
+.categoryWrap {
+  border-bottom: 1px solid #cbcbcb;
+}
+.menuCategory {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.category {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 100%;
+  margin: 0 20px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  color: #000;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.selected {
+  border-width: 2px;
+  border-color: #cb1919;
+  color: #cb1919;
+  line-height: 32px;
+}
+
+.contents {
+  /* border: 1px solid blue; */
+  width: 750px;
+  margin: 40px auto 0;
+}
