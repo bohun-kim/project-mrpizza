@@ -1,6 +1,6 @@
 # project-mrpizza
 
-<img width="1440" alt="스크린샷 2021-09-29 오전 9 26 51" src="https://images.velog.io/images/bohun-kim/post/087212e3-742f-498c-b210-093b9ab1fca9/Jan-18-2022%2022-31-02.gif">
+<img width="1440" alt="스크린샷 2021-09-29 오전 9 26 51" src="https://images.velog.io/images/bohun-kim/post/27b4ab5a-f5d1-47c9-a481-04d38d56f272/Jan-18-2022%2022-32-38.gif">
 
 <img width="1440" alt="스크린샷 2021-09-29 오전 9 26 51" src="https://images.velog.io/images/bohun-kim/post/4fdde00d-d23e-4cda-899d-fcfc0687f9e4/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-01-18%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.10.15.png">
 
